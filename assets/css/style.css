@@ -8,10 +8,11 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 
 
 
-#liForm ,#liInfo{
+#liForm {
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 7px 7px 20px #fff;
 }
+
 

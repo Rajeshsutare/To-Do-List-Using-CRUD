@@ -39,7 +39,7 @@ const templating= (arr)=>{
     liArray.forEach((e,i)=>{
         result+= `
        
-            <div class="card m-2 text-white" id="${e.id}">
+            <div class="card m-2 text-white border-2px-solid-#fff" id="${e.id}">
                     <div class="card-body bg-warning text-uppercase">
                         <span>${i+1} . ${e.addli}</span>  
                 </div>
@@ -70,6 +70,7 @@ const onSubmitBtn = (eve) =>{
         liArray.unshift(liObj);
         eve.target.reset();
         localStorage.setItem('liForm',JSON.stringify(liArray));
+        
         templating(liArray);
         // alert('Li added Successfully...!!!')
         // Try me! 
