@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-6 offset-md-3 p-4">
+            <form class="form-group text-white" id="liForm">
+                <h2 class=" bg-primary text-center card-header mb-4">To Do List</h2>
+                <label for="addli">Add to List</label>
+                <input type="text"  id="addli" class="form-control" placeholder="Type here to add " required>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary mt-2" id="submitBtn">submit</button>
+                    <button type="button" class="btn btn-success mt-2 d-none" id="updateBtn">Update</button>
+                </div>
+            </form>
+          <div id="liInfo" class="">
+            <!-- <div class="card m-2 " >
+                <div class="card-body">
+                    <span>Rajesh</span>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <button type="button" class="btn btn-warning">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </div>
+                   
+                </div>
+            </div> -->
+          </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

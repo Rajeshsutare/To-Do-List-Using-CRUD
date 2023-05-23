@@ -1,0 +1,17 @@
+
+body{
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+#liForm ,#liInfo{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 7px 7px 20px #fff;
+}
+
